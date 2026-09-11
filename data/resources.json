@@ -5391,6 +5391,316 @@
         "http_status": 200,
         "retrieval_note": null
       }
+    },
+    {
+      "id": "lab-llmgoat",
+      "title": "SECFORCE LLMGoat",
+      "url": "https://github.com/SECFORCE/LLMGoat",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Work through OWASP LLM risk categories using separate challenges for prompt injection, sensitive data exposure, supply-chain assumptions, and excessive agency.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/SECFORCE/LLMGoat/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Documented challenge modules and CPU/GPU container options support structured self-study.",
+      "environment_note": "Uses a local GGUF model; the maintainers describe it as a single-user application.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "SECFORCE/LLMGoat",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-01-19T11:29:06Z",
+        "default_branch": "main",
+        "readme_blob_sha": "627f62ac190b2f2d8accc6540759c36e2ed18fb2",
+        "tree_sha": "3a5b41ef73441a766548e185b6241e1537b42e4c"
+      }
+    },
+    {
+      "id": "lab-rootcauz-ai-goat",
+      "title": "AI Goat (dhammon)",
+      "url": "https://github.com/dhammon/ai-goat",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study basic prompt injection and unsafe downstream use of model output through two local CTF-style applications.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/dhammon/ai-goat/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Includes challenge source, solution documents, and optional CTFd scoring.",
+      "environment_note": "Uses a local Vicuna model and Docker. The observed last repository push was in 2024; treat it as a historical learning reference and recheck dependencies.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "dhammon/ai-goat",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-08-22T02:33:49Z",
+        "default_branch": "main",
+        "readme_blob_sha": "f310dc2c0526d85bd2d14e5c228b2b20d12ee363",
+        "tree_sha": "b3c8757d2887e44d3e9ea97893126511504e89d5"
+      }
+    },
+    {
+      "id": "lab-ms-playground",
+      "title": "Microsoft AI Red Teaming Playground Labs",
+      "url": "https://github.com/microsoft/AI-Red-Teaming-Playground-Labs",
+      "type": "Training lab collection",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore secret disclosure, instruction injection, and application integration failures in a configurable Chat Copilot training environment.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/microsoft/AI-Red-Teaming-Playground-Labs/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Includes challenge definitions, deployment files, notebooks, and accompanying course references.",
+      "environment_note": "The documented container setup uses OpenAI or Azure OpenAI endpoints and credentials.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "microsoft/AI-Red-Teaming-Playground-Labs",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-02-13T14:19:16Z",
+        "default_branch": "main",
+        "readme_blob_sha": "cfe7594fa90987c75c1e04309f2c5b95c3769af4",
+        "tree_sha": "5453eac038a2965d76328d5bbd82d7fbfec23d8e"
+      }
+    },
+    {
+      "id": "lab-llmforge",
+      "title": "LLMForge",
+      "url": "https://github.com/SasanLabs/LLMForge",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Compare progressively defended prompt injection, LLM-mediated authorization, RAG poisoning, and retrieval data-exposure exercises.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/SasanLabs/LLMForge/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Contains separate lab controllers and level definitions within the OWASP VulnerableApp ecosystem.",
+      "environment_note": "Uses Ollama chat and embedding models; first startup requires model downloads.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "SasanLabs/LLMForge",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-08-03T20:36:52Z",
+        "default_branch": "main",
+        "readme_blob_sha": "2c4aecf75c35e60cf917e67e55e664f4588d4754",
+        "tree_sha": "19fe059064b922ce7b9388c53f46338c39e1b510"
+      }
+    },
+    {
+      "id": "lab-opena2a-dvaa",
+      "title": "Damn Vulnerable AI Agent (OpenA2A)",
+      "url": "https://github.com/opena2a-org/damn-vulnerable-ai-agent",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study agent memory manipulation, tool misuse, MCP weaknesses, and delegation trust failures across vulnerable agent scenarios.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/opena2a-org/damn-vulnerable-ai-agent/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Includes scenario documentation, expected-check records, and examples with different security controls.",
+      "environment_note": "Distinguishes simulated responses from live LLM mode. The maintainer labels the project reference-only; agent availability can differ between source and published images.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "opena2a-org/damn-vulnerable-ai-agent",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-08-31T16:46:03Z",
+        "default_branch": "main",
+        "readme_blob_sha": "0db467125a8822c0527886eaba547ddb54b0f9a8",
+        "tree_sha": "faf3fb172ef526d12db0eb5377701549693118a6"
+      }
+    },
+    {
+      "id": "lab-consortium-aigoat",
+      "title": "AIGoat (AI Security Consortium)",
+      "url": "https://github.com/AISecurityConsortium/AIGoat",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore a vulnerable shopping assistant with a poisonable knowledge base, excessive agency, and progressively enabled defenses.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/AISecurityConsortium/AIGoat/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Includes guided attack labs, challenge evaluators, and an instructor workshop guide.",
+      "environment_note": "Uses a local Ollama-backed application. Training content has separate licensing terms from the application code.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "AISecurityConsortium/AIGoat",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-04-24T10:40:12Z",
+        "default_branch": "main",
+        "readme_blob_sha": "9613025a7be2a885efd8bfb6b00a2cea2c322568",
+        "tree_sha": "2513291262064ec91061aae9445accd85af2daf0"
+      }
+    },
+    {
+      "id": "lab-dvap",
+      "title": "Damn Vulnerable AI Platform (DVAP)",
+      "url": "https://github.com/sonuoffsec/DVAP",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study vulnerable memory, retrieval, tool-output, agent identity, and domain-specific application workflows through documented lab scenarios.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/sonuoffsec/DVAP/blob/main/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Includes individual lab applications, challenge metadata, flags, and learning guidance.",
+      "environment_note": "Uses Docker and Ollama. Its MCP-themed lab includes simplified HTTP endpoints; do not assume protocol-conformance coverage.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "sonuoffsec/DVAP",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-06-10T19:40:34Z",
+        "default_branch": "main",
+        "readme_blob_sha": "c01c04381576b93ea44a84e557de9a8c53d7e413",
+        "tree_sha": "980305ef3b9561acc090970596f33015bc9e0be8"
+      }
+    },
+    {
+      "id": "lab-dvaia",
+      "title": "Damn Vulnerable AI Application (DVAIA)",
+      "url": "https://github.com/airtasystems/DVAIA-Damn-Vulnerable-AI-Application",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore vulnerable document ingestion, RAG context handling, web content ingestion, and tool-using agents in a local learning application.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public project documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_readme_and_tree_review",
+        "evidence_url": "https://github.com/airtasystems/DVAIA-Damn-Vulnerable-AI-Application/blob/master/README.md",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Provides application source and distinct interaction panels that expose how untrusted content reaches the model.",
+      "environment_note": "Supports local and cloud model backends. Included here for its vulnerable application surfaces; auxiliary payload-generation features are not a separate archive entry.",
+      "repository_observation": {
+        "checked_on": "2026-09-11",
+        "repo": "airtasystems/DVAIA-Damn-Vulnerable-AI-Application",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2026-07-21T23:18:24Z",
+        "default_branch": "master",
+        "readme_blob_sha": "e404478331b8044a2b67f9d3ea01c4320643bae3",
+        "tree_sha": "f24008e9c4f0eb4a72ac2630c27090017b7472e9"
+      }
+    },
+    {
+      "id": "lab-owasp-insecure-agents",
+      "title": "OWASP ASI Insecure Agent Samples",
+      "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/tree/main/initiatives/agent_security_initiative/code_samples",
+      "type": "Training lab collection",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Read deliberately insecure agent examples to connect framework configuration and application code to agentic security failures.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public educational documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "github_sample_directory_review",
+        "evidence_url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/tree/main/initiatives/agent_security_initiative/code_samples",
+        "direct_retrieval_succeeded": true,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "The official OWASP collection separates examples by topic and includes explanatory material alongside code.",
+      "environment_note": "A collection of samples rather than one deployable application; dependencies and model backends vary by example."
+    },
+    {
+      "id": "lab-portswigger-llm",
+      "title": "PortSwigger Web Security Academy: Web LLM Attacks",
+      "url": "https://portswigger.net/web-security/llm-attacks",
+      "type": "Hosted training labs",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Practice LLM API misuse, indirect prompt injection, and unsafe output handling through guided web-application exercises.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Public educational documentation",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "primary_page_web_retrieval",
+        "evidence_url": "https://portswigger.net/web-security/llm-attacks",
+        "direct_retrieval_succeeded": null,
+        "http_status": null,
+        "retrieval_note": "Documentation review only; application deployment and challenge outcomes were not tested."
+      },
+      "educational_value": "Combines structured explanations with linked lab exercises and solution guidance.",
+      "environment_note": "Hosted Academy exercises; application source and local deployment are not provided by this entry."
     }
   ]
 }

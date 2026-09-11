@@ -4,9 +4,9 @@ AI Security Research: Papers, Documents, Standards and more...
 
 An English-language knowledge archive of AI security and adversarial machine learning: papers, surveys, research reports, standards, evaluation studies, competition archives, and intentionally vulnerable learning applications.
 
-**248 distinct sources · 430 category entries · 18 categories**
+**258 distinct sources · 440 category entries · 18 categories**
 
-All 16 knowledge categories contain at least 25 sources. The two practice collections contain four resources each. Cross-listed sources retain one shared record in [data/resources.json](data/resources.json); category counts are not counts of globally unique works.
+All 16 knowledge categories contain at least 25 sources. The practice collections contain four CTF resources and 14 vulnerable applications or training collections. Cross-listed sources retain one shared record in [data/resources.json](data/resources.json); category counts are not counts of globally unique works.
 
 ## Categories
 
@@ -28,7 +28,7 @@ All 16 knowledge categories contain at least 25 sources. The two practice collec
 | [Benchmarks, Datasets, and Evaluation](categories/14-benchmarks-datasets-and-evaluation.md) | 30 | Knowledge |
 | [Standards, Frameworks, and Secure Development](categories/15-standards-frameworks-and-secure-development.md) | 25 | Knowledge |
 | [CTFs and Competition Archives](categories/16-ctfs-and-competition-archives.md) | 4 | Practice |
-| [Vulnerable Applications and Training Labs](categories/17-vulnerable-applications-and-training-labs.md) | 4 | Practice |
+| [Vulnerable Applications and Training Labs](categories/17-vulnerable-applications-and-training-labs.md) | 14 | Practice |
 | [Case Studies and Research Methodology](categories/18-case-studies-and-research-methodology.md) | 26 | Knowledge |
 
 ## Scope

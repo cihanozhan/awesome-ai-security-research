@@ -4,10 +4,10 @@ Checked on 2026-09-11.
 
 ## Collection counts
 
-- Distinct source records: **248**.
-- Total category entries: **430**.
+- Distinct source records: **258**.
+- Total category entries: **440**.
 - Entries in the 16 knowledge categories: **422**.
-- Entries in the two practice collections: **8**.
+- Entries in the two practice collections: **18**.
 - Minimum knowledge-category count: **25**.
 - Duplicate source IDs, primary URLs, or normalized titles: **0**.
 - Repeated source IDs within a category: **0**.
@@ -30,15 +30,17 @@ Checked on 2026-09-11.
 | [Benchmarks, Datasets, and Evaluation](categories/14-benchmarks-datasets-and-evaluation.md) | 30 | Knowledge |
 | [Standards, Frameworks, and Secure Development](categories/15-standards-frameworks-and-secure-development.md) | 25 | Knowledge |
 | [CTFs and Competition Archives](categories/16-ctfs-and-competition-archives.md) | 4 | Practice |
-| [Vulnerable Applications and Training Labs](categories/17-vulnerable-applications-and-training-labs.md) | 4 | Practice |
+| [Vulnerable Applications and Training Labs](categories/17-vulnerable-applications-and-training-labs.md) | 14 | Practice |
 | [Case Studies and Research Methodology](categories/18-case-studies-and-research-methodology.md) | 26 | Knowledge |
 
 ## Primary-source checks
 
 - `direct_page_retrieval`: 233 sources.
 - `direct_pdf_retrieval`: 10 sources.
-- `primary_page_web_retrieval`: 4 sources.
-- `publisher_search_metadata`: 1 sources.
+- `primary_page_web_retrieval`: 5 sources.
+- `publisher_search_metadata`: 1 source.
+- `github_readme_and_tree_review`: 8 sources.
+- `github_sample_directory_review`: 1 source.
 
 Direct HTML retrieval required source metadata or a meaningful title, with recognized challenge pages rejected. PDF retrieval required readable first-page text. Primary-source titles and reading focuses were reviewed for mismatches. Successful retrieval does not imply that every full paper was read or that experiments were reproduced.
 
@@ -61,3 +63,13 @@ ISO catalog entries are publicly described; full standards may require purchase 
 Category counts, unique IDs, unique primary URLs, normalized-title duplicates, JSON parsing, local Markdown file targets, and the minimum source floor were checked. Authored prose and category labels were reviewed for English-only content. International proper names and official source titles are preserved. The package contains no copied abstracts, third-party PDFs, downloaded application code, or tool catalog.
 
 External links reflect this curation session. Hosted CTFs and vulnerable applications were not executed or deployment-tested. Repository destination: https://github.com/cihanozhan/awesome-ai-security-research.
+
+## Vulnerable application expansion
+
+Added 10 educational projects or lab collections, increasing category 17 from 4 to 14 resources. A project is counted once regardless of its internal challenge count. The 16 knowledge categories retain their previous counts.
+
+For eight standalone GitHub additions, repository metadata, README content, and source-tree listings were inspected. All eight were non-forks and not archived at the time of review. These observations establish provenance and visible implementation material, not code quality certification or guaranteed maintenance. The registry records observed README blob IDs, tree IDs, and repository push timestamps. A push timestamp is not a release date or proof of substantive maintenance.
+
+OWASP's sample directory and its official explanatory page were inspected. PortSwigger's official learning page was checked for its linked lab curriculum. Additional spot checks covered the OpenA2A status document, the AIGoat workshop guide, and DVAP's MCP-themed application source.
+
+Selection prioritized explicit learning objectives, distinct vulnerable application surfaces, available source or hosted exercises, and setup guidance. Runtime models, simulation limits, historical dependencies, and sample-specific setup differences are identified in the category annotations. No application was installed or executed during this update.
