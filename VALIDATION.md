@@ -4,9 +4,9 @@ Checked on 2026-09-11.
 
 ## Collection counts
 
-- Distinct source records: **258**.
-- Total category entries: **440**.
-- Entries in the 16 knowledge categories: **422**.
+- Distinct source records: **276**.
+- Total category entries: **466**.
+- Entries in the 17 knowledge categories: **448**.
 - Entries in the two practice collections: **18**.
 - Minimum knowledge-category count: **25**.
 - Duplicate source IDs, primary URLs, or normalized titles: **0**.
@@ -23,6 +23,7 @@ Checked on 2026-09-11.
 | [Federated Learning and Graph Learning Security](categories/07-federated-learning-and-graph-learning-security.md) | 28 | Knowledge |
 | [LLM Security](categories/08-llm-security.md) | 26 | Knowledge |
 | [RAG, Embedding, and Retrieval Security](categories/09-rag-embedding-and-retrieval-security.md) | 27 | Knowledge |
+| [Vector Database Security](README.md#vector-database-security) | 26 | Knowledge |
 | [Agentic AI, Multi-Agent, and MCP Security](categories/10-agentic-ai-multi-agent-and-mcp-security.md) | 27 | Knowledge |
 | [Audio, Speech, and Multimodal Security](categories/11-audio-speech-and-multimodal-security.md) | 25 | Knowledge |
 | [Generative Models Security](categories/12-generative-models-security.md) | 26 | Knowledge |
@@ -35,7 +36,7 @@ Checked on 2026-09-11.
 
 ## Primary-source checks
 
-- `direct_page_retrieval`: 233 sources.
+- `direct_page_retrieval`: 251 sources.
 - `direct_pdf_retrieval`: 10 sources.
 - `primary_page_web_retrieval`: 5 sources.
 - `publisher_search_metadata`: 1 source.
@@ -73,3 +74,13 @@ For eight standalone GitHub additions, repository metadata, README content, and 
 OWASP's sample directory and its official explanatory page were inspected. PortSwigger's official learning page was checked for its linked lab curriculum. Additional spot checks covered the OpenA2A status document, the AIGoat workshop guide, and DVAP's MCP-themed application source.
 
 Selection prioritized explicit learning objectives, distinct vulnerable application surfaces, available source or hosted exercises, and setup guidance. Runtime models, simulation limits, historical dependencies, and sample-specific setup differences are identified in the category annotations. No application was installed or executed during this update.
+
+## Vector database category expansion
+
+Added Vector Database Security as category 19, displayed after RAG in the README. Its 26 entries comprise 23 research works and three official technical documents. Eighteen source records are new and eight reuse existing records; this produces 276 distinct sources and 466 category entries across 19 categories. The 18 previously existing categories retain their counts.
+
+All 18 new primary URLs returned readable page content. Titles, source years, abstracts or scope descriptions, and document identities were reviewed. ACL proceedings, USENIX, author pages, arXiv, IACR ePrint, and official database documentation provide the primary references. Eight cross-listed works retain their earlier source verification records and receive vector-specific reading focuses. This review does not claim full-paper reproduction, database penetration testing, or validation of every reported result.
+
+The category distinguishes direct vector insertion from poisoned text ingestion, embedding reconstruction from training-data inference, and private-search protocols from database access controls. The Black-Hole Attack entry is explicitly labeled as a preprint. The Curator entry is labeled as architecture background. Official documentation is included for control design, without ranking or recommending products.
+
+Validated the JSON registry, unique IDs and primary URLs, category mappings, per-category entry counts, and local Markdown links. The README retains expanded content for all categories and does not restore the removed minimum-source sentence or Repository contents section.

@@ -1307,7 +1307,8 @@
       "reading_focus": "Study knowledge-base poisoning that changes retrieval-augmented answers.",
       "category_ids": [
         3,
-        9
+        9,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -1317,6 +1318,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Trace how corrupted knowledge-base content influences retrieval and downstream generated answers."
       }
     },
     {
@@ -1329,7 +1333,8 @@
       "reading_focus": "Understand recovery of source text from dense embedding vectors.",
       "category_ids": [
         4,
-        9
+        9,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -1339,6 +1344,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Study reconstruction of stored source text from exposed dense embedding vectors."
       }
     },
     {
@@ -3191,7 +3199,8 @@
       "reading_focus": "Study the privacy implications of attaching retrieved knowledge to language models.",
       "category_ids": [
         4,
-        9
+        9,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -3201,6 +3210,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Examine how a retrieval layer changes the privacy exposure of stored knowledge."
       }
     },
     {
@@ -3361,7 +3373,8 @@
       "reading_focus": "Examine reproducibility and assumptions in text embedding inversion.",
       "category_ids": [
         9,
-        18
+        18,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -3371,6 +3384,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Check how reproducibility, auxiliary data, and model assumptions affect embedding-inversion claims."
       }
     },
     {
@@ -3448,7 +3464,8 @@
       "reading_focus": "Compare retrieval and generation robustness under knowledge poisoning.",
       "category_ids": [
         9,
-        14
+        14,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -3458,6 +3475,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Compare retrieval-stage poisoning effects with downstream answer robustness in a shared evaluation setting."
       }
     },
     {
@@ -3470,7 +3490,8 @@
       "reading_focus": "Study certified robustness under bounded retrieval corruption.",
       "category_ids": [
         9,
-        13
+        13,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -3480,6 +3501,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Read bounded retrieval-corruption guarantees and the assumptions limiting their scope."
       }
     },
     {
@@ -3492,7 +3516,8 @@
       "reading_focus": "Examine adversarial passages injected into retrieval corpora.",
       "category_ids": [
         3,
-        9
+        9,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -3502,6 +3527,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Study poisoned passage insertion into a dense retrieval corpus and generalization to unseen queries."
       }
     },
     {
@@ -3515,7 +3543,8 @@
       "category_ids": [
         3,
         9,
-        10
+        10,
+        19
       ],
       "access_note": "Open primary source",
       "verification": {
@@ -3525,6 +3554,9 @@
         "direct_retrieval_succeeded": true,
         "http_status": 200,
         "retrieval_note": null
+      },
+      "category_reading_focus": {
+        "19": "Examine poisoned retrieval memories and knowledge bases as entry points for agent backdoors."
       }
     },
     {
@@ -5701,6 +5733,384 @@
       },
       "educational_value": "Combines structured explanations with linked lab exercises and solution guidance.",
       "environment_note": "Hosted Academy exercises; application source and local deployment are not provided by this entry."
+    },
+    {
+      "id": "vector-geia",
+      "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
+      "url": "https://aclanthology.org/2023.findings-acl.881/",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Understand how a generative inversion model can reconstruct source sentences from exposed embedding vectors.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://aclanthology.org/2023.findings-acl.881/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-transfer-inversion",
+      "title": "Transferable Embedding Inversion Attack: Uncovering Privacy Risks in Text Embeddings without Model Queries",
+      "url": "https://aclanthology.org/2024.acl-long.230/",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Study embedding reconstruction when the attacker cannot query the target embedding model.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://aclanthology.org/2024.acl-long.230/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-geia-reproduction",
+      "title": "Information Leakage of Sentence Embeddings via Generative Embedding Inversion Attacks",
+      "url": "https://arxiv.org/abs/2504.16609",
+      "type": "Reproducibility paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine reproduced embedding-inversion results and the distinction between input reconstruction and training-data leakage.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2504.16609",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-continuous-poison",
+      "title": "Unsupervised Corpus Poisoning Attacks in Continuous Space for Dense Retrieval",
+      "url": "https://arxiv.org/abs/2504.17884",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare continuous embedding-space poisoning with attacks that must produce valid text passages.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2504.17884",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-aggd",
+      "title": "Corpus Poisoning via Approximate Greedy Gradient Descent",
+      "url": "https://aclanthology.org/2025.findings-acl.222/",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Study adversarial passage construction and its effect on top-ranked dense retrieval results.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://aclanthology.org/2025.findings-acl.222/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-diga",
+      "title": "Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack",
+      "url": "https://aclanthology.org/2025.naacl-long.210/",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Examine black-box manipulation of retrieval through influential tokens in poisoned passages.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://aclanthology.org/2025.naacl-long.210/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-gaslite",
+      "title": "GASLITEing the Retrieval: Exploring Vulnerabilities in Dense Embedding-based Search",
+      "url": "https://arxiv.org/abs/2412.20953",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Analyze malicious passage promotion under different attacker knowledge and query-distribution assumptions.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2412.20953",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-sentence-dp",
+      "title": "Sentence-level Privacy for Document Embeddings",
+      "url": "https://aclanthology.org/2022.acl-long.238/",
+      "type": "Paper",
+      "year": 2022,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Study sentence-level differential privacy and the utility trade-offs of protecting document representations.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://aclanthology.org/2022.acl-long.238/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-prag",
+      "title": "Don't forget private retrieval: distributed private similarity search for large language models",
+      "url": "https://aclanthology.org/2024.privatenlp-1.2/",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Explore multi-party computation for private top-k retrieval and the required distributed-server assumptions.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://aclanthology.org/2024.privatenlp-1.2/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-tiptoe",
+      "title": "Private Web Search with Tiptoe",
+      "url": "https://people.eecs.berkeley.edu/~henrycg/pubs/tiptoe/",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Study the reduction of private semantic search to private nearest-neighbor retrieval using cryptography.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://people.eecs.berkeley.edu/~henrycg/pubs/tiptoe/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-sanns",
+      "title": "SANNS: Scaling Up Secure Approximate k-Nearest Neighbors Search",
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/chen-hao",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "publication year from primary source",
+      "reading_focus": "Examine query and result confidentiality for approximate nearest-neighbor search under a semi-honest threat model.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/chen-hao",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-embedding-leakage",
+      "title": "Information Leakage in Embedding Models",
+      "url": "https://arxiv.org/abs/2004.00053",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Distinguish inversion, sensitive-attribute inference, and membership leakage from embedding representations.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2004.00053",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-black-hole",
+      "title": "Can You Trust the Vectors in Your Vector Database? Black-Hole Attack from Embedding Space Defects",
+      "url": "https://arxiv.org/abs/2604.05480",
+      "type": "Preprint",
+      "year": 2026,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study centrality-driven hubness and malicious vectors that attract disproportionate nearest-neighbor matches.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2604.05480",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-dcpe",
+      "title": "Approximate Distance-Comparison-Preserving Symmetric Encryption",
+      "url": "https://eprint.iacr.org/2021/1666",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "ePrint first-publication year",
+      "reading_focus": "Examine searchable encrypted vectors and the leakage implications of preserving distance-comparison information.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://eprint.iacr.org/2021/1666",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-curator",
+      "title": "Curator: Efficient Indexing for Multi-Tenant Vector Databases",
+      "url": "https://arxiv.org/abs/2401.07119",
+      "type": "Architecture paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study tenant-aware index organization and filtering as background for reasoning about data isolation and search performance.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2401.07119",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-qdrant-security",
+      "title": "Qdrant: Security and Access Control",
+      "url": "https://qdrant.tech/documentation/security/",
+      "type": "Official documentation",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Review authentication, collection-scoped permissions, transport security, and network exposure controls for a vector store.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://qdrant.tech/documentation/security/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-weaviate-rbac",
+      "title": "Weaviate: Authorization",
+      "url": "https://docs.weaviate.io/deploy/configuration/authorization",
+      "type": "Official documentation",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study role-based permissions and authorization boundaries for vector database operations.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://docs.weaviate.io/deploy/configuration/authorization",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "vector-pinecone-tenancy",
+      "title": "Pinecone: Implement Multitenancy",
+      "url": "https://docs.pinecone.io/guides/index-data/implement-multitenancy",
+      "type": "Official documentation",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Examine namespace-based tenant separation and the application responsibility for choosing the authorized tenant scope.",
+      "category_ids": [
+        19
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://docs.pinecone.io/guides/index-data/implement-multitenancy",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
     }
   ]
 }

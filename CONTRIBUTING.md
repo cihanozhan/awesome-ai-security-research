@@ -10,7 +10,7 @@ Contributions must be written in English and support the archive's knowledge-foc
 4. Select the narrowest relevant categories. Cross-list only when the source materially serves each category.
 5. Identify its document type and confirmed source year. Do not infer peer review from an arXiv record.
 6. Record the link-check date, evidence method, and any access restriction.
-7. Update the central registry, affected reading lists, and category counts together.
+7. Update the central registry, affected reading lists, expanded README sections, and category counts together.
 
 ## Required entry fields
 

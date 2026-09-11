@@ -81,6 +81,15 @@
     "source_count": 27
   },
   {
+    "id": 19,
+    "title": "Vector Database Security",
+    "scope": "Embedding confidentiality, corpus and vector poisoning, private similarity search, tenant isolation, and database access controls.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/19-vector-database-security.md",
+    "source_count": 26
+  },
+  {
     "id": 10,
     "title": "Agentic AI, Multi-Agent, and MCP Security",
     "scope": "Agent actions, memory, tool descriptions, trust boundaries, malicious interactions, and protocol security.",
