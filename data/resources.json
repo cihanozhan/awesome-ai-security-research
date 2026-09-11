@@ -1,0 +1,5396 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-09-11",
+  "resources": [
+    {
+      "id": "wild-patterns",
+      "title": "Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning",
+      "url": "https://arxiv.org/abs/1712.03141",
+      "type": "Survey",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Trace the development of threat models across classical and deep learning.",
+      "category_ids": [
+        1,
+        2,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1712.03141",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "intriguing-properties",
+      "title": "Intriguing properties of neural networks",
+      "url": "https://arxiv.org/abs/1312.6199",
+      "type": "Paper",
+      "year": 2013,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study the discovery of adversarial examples and cross-model generalization.",
+      "category_ids": [
+        1,
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1312.6199",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fgsm",
+      "title": "Explaining and Harnessing Adversarial Examples",
+      "url": "https://arxiv.org/abs/1412.6572",
+      "type": "Paper",
+      "year": 2014,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand linearity-based explanations and single-step adversarial perturbations.",
+      "category_ids": [
+        1,
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1412.6572",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cw",
+      "title": "Towards Evaluating the Robustness of Neural Networks",
+      "url": "https://arxiv.org/abs/1608.04644",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine optimization-based attacks and the evaluation of defensive distillation.",
+      "category_ids": [
+        1,
+        2,
+        5,
+        13,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1608.04644",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "jsma",
+      "title": "The Limitations of Deep Learning in Adversarial Settings",
+      "url": "https://arxiv.org/abs/1511.07528",
+      "type": "Paper",
+      "year": 2015,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore saliency-based feature modification under adversarial conditions.",
+      "category_ids": [
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1511.07528",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "deepfool",
+      "title": "DeepFool: a simple and accurate method to fool deep neural networks",
+      "url": "https://arxiv.org/abs/1511.04599",
+      "type": "Paper",
+      "year": 2015,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand boundary-based estimates of small adversarial perturbations.",
+      "category_ids": [
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1511.04599",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "universal-perturbations",
+      "title": "Universal adversarial perturbations",
+      "url": "https://arxiv.org/abs/1610.08401",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study input-agnostic perturbations and shared decision-boundary geometry.",
+      "category_ids": [
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1610.08401",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "blackbox-practical",
+      "title": "Practical Black-Box Attacks against Machine Learning",
+      "url": "https://arxiv.org/abs/1602.02697",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine substitute models and transferable attacks with limited target access.",
+      "category_ids": [
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1602.02697",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "transferability",
+      "title": "Adversarial Machine Learning at Scale",
+      "url": "https://arxiv.org/abs/1611.01236",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study adversarial training and robustness evaluation at ImageNet scale.",
+      "category_ids": [
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1611.01236",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "physical-examples",
+      "title": "Adversarial examples in the physical world",
+      "url": "https://arxiv.org/abs/1607.02533",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine whether adversarial examples remain effective after physical capture.",
+      "category_ids": [
+        2,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1607.02533",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "zoo",
+      "title": "ZOO: Zeroth Order Optimization based Black-box Attacks to Deep Neural Networks without Training Substitute Models",
+      "url": "https://arxiv.org/abs/1708.03999",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study zeroth-order optimization when model gradients are unavailable.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1708.03999",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "boundary-attack",
+      "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+      "url": "https://arxiv.org/abs/1712.04248",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore attacks using only the target model's final decisions.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1712.04248",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "nes-attack",
+      "title": "Black-box Adversarial Attacks with Limited Queries and Information",
+      "url": "https://arxiv.org/abs/1804.08598",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand attacks with limited query budgets and limited prediction information.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1804.08598",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bandits",
+      "title": "Prior Convictions: Black-Box Adversarial Attacks with Bandits and Priors",
+      "url": "https://arxiv.org/abs/1807.07978",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study prior information and query efficiency in black-box attacks.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1807.07978",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "hopskipjump",
+      "title": "HopSkipJumpAttack: A Query-Efficient Decision-Based Attack",
+      "url": "https://arxiv.org/abs/1904.02144",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine query-efficient decision-based adversarial optimization.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1904.02144",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "square-attack",
+      "title": "Square Attack: a query-efficient black-box adversarial attack via random search",
+      "url": "https://arxiv.org/abs/1912.00049",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study randomized search for query-efficient score-based attacks.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1912.00049",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "simba",
+      "title": "Simple Black-box Adversarial Attacks",
+      "url": "https://arxiv.org/abs/1905.07121",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand a simple query-based black-box attack baseline.",
+      "category_ids": [
+        2
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1905.07121",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "autoattack",
+      "title": "Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks",
+      "url": "https://arxiv.org/abs/2003.01690",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study reliable robustness evaluation with diverse parameter-free attacks.",
+      "category_ids": [
+        2,
+        13,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2003.01690",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "robustbench",
+      "title": "RobustBench: a standardized adversarial robustness benchmark",
+      "url": "https://arxiv.org/abs/2010.09670",
+      "type": "Benchmark paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare robustness results under explicit shared evaluation settings.",
+      "category_ids": [
+        2,
+        5,
+        13,
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2010.09670",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "obfuscated-gradients",
+      "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples",
+      "url": "https://arxiv.org/abs/1802.00420",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Recognize misleading robustness caused by gradient masking.",
+      "category_ids": [
+        1,
+        2,
+        13,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1802.00420",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "madry",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "url": "https://arxiv.org/abs/1706.06083",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand adversarial training as a robust optimization problem.",
+      "category_ids": [
+        1,
+        2,
+        5,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1706.06083",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "trades",
+      "title": "Theoretically Principled Trade-off between Robustness and Accuracy",
+      "url": "https://arxiv.org/abs/1901.08573",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study the trade-off between standard accuracy and adversarial robustness.",
+      "category_ids": [
+        2,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1901.08573",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "nonrobust-features",
+      "title": "Adversarial Examples Are Not Bugs, They Are Features",
+      "url": "https://arxiv.org/abs/1905.02175",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine the hypothesis that adversarial vulnerability reflects predictive non-robust features.",
+      "category_ids": [
+        1,
+        2,
+        5,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1905.02175",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "robustness-accuracy",
+      "title": "Robustness May Be at Odds with Accuracy",
+      "url": "https://arxiv.org/abs/1805.12152",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Analyze when robustness and accuracy objectives may conflict.",
+      "category_ids": [
+        2,
+        13,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1805.12152",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "robust-generalization",
+      "title": "Adversarially Robust Generalization Requires More Data",
+      "url": "https://arxiv.org/abs/1804.11285",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study the data requirements of adversarial generalization.",
+      "category_ids": [
+        2,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1804.11285",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "badnets",
+      "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain",
+      "url": "https://arxiv.org/abs/1708.06733",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand hidden triggers and trust in outsourced model training.",
+      "category_ids": [
+        1,
+        3,
+        5,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1708.06733",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "poison-frogs",
+      "title": "Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks",
+      "url": "https://arxiv.org/abs/1804.00792",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study targeted poisoning without changing training labels.",
+      "category_ids": [
+        3,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1804.00792",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "svm-poisoning",
+      "title": "Poisoning Attacks against Support Vector Machines",
+      "url": "https://arxiv.org/abs/1206.6389",
+      "type": "Paper",
+      "year": 2012,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand training-time poisoning against support vector machines.",
+      "category_ids": [
+        1,
+        3
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1206.6389",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "witches-brew",
+      "title": "Witches' Brew: Industrial Scale Data Poisoning via Gradient Matching",
+      "url": "https://arxiv.org/abs/2009.02276",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study gradient matching for targeted data poisoning.",
+      "category_ids": [
+        3
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2009.02276",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "hidden-trigger",
+      "title": "Hidden Trigger Backdoor Attacks",
+      "url": "https://arxiv.org/abs/1910.00033",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore backdoor learning with concealed trigger relationships.",
+      "category_ids": [
+        3,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1910.00033",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fine-pruning",
+      "title": "Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks",
+      "url": "https://arxiv.org/abs/1805.12185",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine pruning and fine-tuning as backdoor mitigation strategies.",
+      "category_ids": [
+        3,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1805.12185",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "spectral-signatures",
+      "title": "Spectral Signatures in Backdoor Attacks",
+      "url": "https://arxiv.org/abs/1811.00636",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study representation-space signals associated with poisoned training examples.",
+      "category_ids": [
+        3,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1811.00636",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "sleeper-agents",
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "url": "https://arxiv.org/abs/2401.05566",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine persistent conditional behavior after subsequent safety training.",
+      "category_ids": [
+        3,
+        8,
+        12,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2401.05566",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-backdoor",
+      "title": "How To Backdoor Federated Learning",
+      "url": "https://arxiv.org/abs/1807.00459",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand model replacement attacks in federated learning.",
+      "category_ids": [
+        3,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1807.00459",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "dlg",
+      "title": "Deep Leakage from Gradients",
+      "url": "https://arxiv.org/abs/1906.08935",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study reconstruction of training examples from shared gradients.",
+      "category_ids": [
+        1,
+        4,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1906.08935",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "inverting-gradients",
+      "title": "Inverting Gradients -- How easy is it to break privacy in federated learning?",
+      "url": "https://arxiv.org/abs/2003.14053",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine practical image reconstruction from model gradients.",
+      "category_ids": [
+        4,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2003.14053",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "idlg",
+      "title": "iDLG: Improved Deep Leakage from Gradients",
+      "url": "https://arxiv.org/abs/2001.02610",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand label recovery and improvements to gradient leakage attacks.",
+      "category_ids": [
+        4,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2001.02610",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "membership-inference",
+      "title": "Membership Inference Attacks against Machine Learning Models",
+      "url": "https://arxiv.org/abs/1610.05820",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study how prediction behavior can reveal training-set membership.",
+      "category_ids": [
+        1,
+        4
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1610.05820",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "membership-first-principles",
+      "title": "Membership Inference Attacks From First Principles",
+      "url": "https://arxiv.org/abs/2112.03570",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine membership inference at low false-positive rates.",
+      "category_ids": [
+        4,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2112.03570",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "label-only-membership",
+      "title": "Label-Only Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2007.14321",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study membership inference when only predicted labels are visible.",
+      "category_ids": [
+        4
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2007.14321",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "ml-leaks",
+      "title": "ML-Leaks: Model and Data Independent Membership Inference Attacks and Defenses on Machine Learning Models",
+      "url": "https://arxiv.org/abs/1806.01246",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine membership leakage with reduced assumptions about target data and models.",
+      "category_ids": [
+        4
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1806.01246",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "secret-sharer",
+      "title": "The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks",
+      "url": "https://arxiv.org/abs/1802.08232",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand unintended memorization and exposure measurements in generative models.",
+      "category_ids": [
+        4,
+        8,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1802.08232",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-training-extraction",
+      "title": "Extracting Training Data from Large Language Models",
+      "url": "https://arxiv.org/abs/2012.07805",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study recovery of memorized language-model training examples.",
+      "category_ids": [
+        1,
+        4,
+        8,
+        12,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2012.07805",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "quantifying-memorization",
+      "title": "Quantifying Memorization Across Neural Language Models",
+      "url": "https://arxiv.org/abs/2202.07646",
+      "type": "Paper",
+      "year": 2022,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Investigate how model and data properties influence memorization.",
+      "category_ids": [
+        4,
+        8,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2202.07646",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "scalable-extraction",
+      "title": "Scalable Extraction of Training Data from (Production) Language Models",
+      "url": "https://arxiv.org/abs/2311.17035",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study scalable training-data extraction from different language-model deployment settings.",
+      "category_ids": [
+        4,
+        8,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2311.17035",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "stealing-llm-part",
+      "title": "Stealing Part of a Production Language Model",
+      "url": "https://arxiv.org/abs/2403.06634",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine extraction of components of production language models.",
+      "category_ids": [
+        4,
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2403.06634",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "knockoff-nets",
+      "title": "Knockoff Nets: Stealing Functionality of Black-Box Models",
+      "url": "https://arxiv.org/abs/1812.02766",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study functionality extraction from image-classification prediction services.",
+      "category_ids": [
+        4,
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1812.02766",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "high-accuracy-high-fidelity",
+      "title": "High Accuracy and High Fidelity Extraction of Neural Networks",
+      "url": "https://arxiv.org/abs/1909.01838",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Distinguish model-stealing accuracy from agreement with the target model.",
+      "category_ids": [
+        4
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1909.01838",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "dp-deep-learning",
+      "title": "Deep Learning with Differential Privacy",
+      "url": "https://arxiv.org/abs/1607.00133",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand differentially private training and its privacy-utility trade-offs.",
+      "category_ids": [
+        4,
+        7,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1607.00133",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "collaborative-gan",
+      "title": "Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning",
+      "url": "https://arxiv.org/abs/1702.07464",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study information leakage in collaborative learning using generative models.",
+      "category_ids": [
+        4,
+        7,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1702.07464",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "adversarial-patch",
+      "title": "Adversarial Patch",
+      "url": "https://arxiv.org/abs/1712.09665",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study visible universal patches under varying image conditions.",
+      "category_ids": [
+        5,
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1712.09665",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "robust-physical",
+      "title": "Robust Physical-World Attacks on Deep Learning Models",
+      "url": "https://arxiv.org/abs/1707.08945",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore physically realizable perturbations against visual classifiers.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1707.08945",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "3d-adversarial",
+      "title": "Synthesizing Robust Adversarial Examples",
+      "url": "https://arxiv.org/abs/1707.07397",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study robust adversarial objects under transformations and physical viewing conditions.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1707.07397",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-policy-attacks",
+      "title": "Adversarial Attacks on Neural Network Policies",
+      "url": "https://arxiv.org/abs/1702.02284",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand observation perturbations against learned control policies.",
+      "category_ids": [
+        1,
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1702.02284",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "adversarial-policies",
+      "title": "Adversarial Policies: Attacking Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1905.10615",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study malicious opponent behavior in multi-agent reinforcement learning.",
+      "category_ids": [
+        6,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1905.10615",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "reward-tampering",
+      "title": "Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective",
+      "url": "https://arxiv.org/abs/1908.04734",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Analyze incentives to manipulate reward functions and reward inputs.",
+      "category_ids": [
+        6,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1908.04734",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "indirect-injection",
+      "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "url": "https://arxiv.org/abs/2302.12173",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand instruction injection through external content and broken trust boundaries.",
+      "category_ids": [
+        1,
+        8,
+        9,
+        10,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2302.12173",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gcg",
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "url": "https://arxiv.org/abs/2307.15043",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study transferable adversarial suffixes against aligned language models.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2307.15043",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "poisonedrag",
+      "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+      "url": "https://arxiv.org/abs/2402.07867",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study knowledge-base poisoning that changes retrieval-augmented answers.",
+      "category_ids": [
+        3,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.07867",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "embedding-inversion",
+      "title": "Text Embeddings Reveal (Almost) As Much As Text",
+      "url": "https://arxiv.org/abs/2310.06816",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand recovery of source text from dense embedding vectors.",
+      "category_ids": [
+        4,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2310.06816",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agentdojo",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "url": "https://arxiv.org/abs/2406.13352",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Evaluate prompt injection together with legitimate task completion in tool-using agents.",
+      "category_ids": [
+        9,
+        10,
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2406.13352",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "injecagent",
+      "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2403.02691",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study indirect prompt injection against tool-integrated agents.",
+      "category_ids": [
+        9,
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2403.02691",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "mcptox",
+      "title": "MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+      "url": "https://arxiv.org/abs/2508.14925",
+      "type": "Benchmark paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Evaluate tool-description poisoning in realistic MCP settings.",
+      "category_ids": [
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2508.14925",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-cw",
+      "title": "Audio Adversarial Examples: Targeted Attacks on Speech-to-Text",
+      "url": "https://arxiv.org/abs/1801.01944",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study targeted perturbations that alter speech-to-text output.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1801.01944",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "multimodal-indirect",
+      "title": "Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs",
+      "url": "https://arxiv.org/abs/2307.10490",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand instruction injection carried by image and audio inputs.",
+      "category_ids": [
+        9,
+        10,
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2307.10490",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "diffusion-extraction",
+      "title": "Extracting Training Data from Diffusion Models",
+      "url": "https://arxiv.org/abs/2301.13188",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study memorization and recovery of images from diffusion training data.",
+      "category_ids": [
+        4,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2301.13188",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "baddiffusion",
+      "title": "How to Backdoor Diffusion Models?",
+      "url": "https://arxiv.org/abs/2212.05400",
+      "type": "Paper",
+      "year": 2022,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine backdoor implantation in diffusion training processes.",
+      "category_ids": [
+        3,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2212.05400",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "smoothing",
+      "title": "Certified Adversarial Robustness via Randomized Smoothing",
+      "url": "https://arxiv.org/abs/1902.02918",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand randomized smoothing and norm-bounded robustness certificates.",
+      "category_ids": [
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1902.02918",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "harmbench",
+      "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+      "url": "https://arxiv.org/abs/2402.04249",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study standardized evaluations of harmful behavior and robust refusal.",
+      "category_ids": [
+        8,
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.04249",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "jailbreakbench",
+      "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+      "url": "https://arxiv.org/abs/2404.01318",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine jailbreak threat models, behaviors, scoring, and reproducible artifacts.",
+      "category_ids": [
+        8,
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2404.01318",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "satml-ctf",
+      "title": "Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition",
+      "url": "https://arxiv.org/abs/2406.07954",
+      "type": "Competition paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study competition data and lessons from adversarial secret-protection tasks.",
+      "category_ids": [
+        14,
+        16,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2406.07954",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-rarl",
+      "title": "Robust Adversarial Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1703.02702",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study adversarial environment disturbances as a robustness training objective.",
+      "category_ids": [
+        6,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1703.02702",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-delving",
+      "title": "Delving into adversarial attacks on deep policies",
+      "url": "https://arxiv.org/abs/1705.06452",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine timing and effectiveness of perturbations against deep policies.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1705.06452",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-pattanaik",
+      "title": "Robust Deep Reinforcement Learning with Adversarial Attacks",
+      "url": "https://arxiv.org/abs/1712.03632",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study adversarial training for deep reinforcement learning policies.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1712.03632",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-populations",
+      "title": "Robust Reinforcement Learning using Adversarial Populations",
+      "url": "https://arxiv.org/abs/2008.01825",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore robustness against diverse populations of adversaries.",
+      "category_ids": [
+        6,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2008.01825",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-certified",
+      "title": "Certifiable Robustness to Adversarial State Uncertainty in Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2004.06496",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study robustness certificates for uncertain state observations.",
+      "category_ids": [
+        6,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2004.06496",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-characterizing",
+      "title": "Characterizing Attacks on Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1907.09470",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare attack surfaces and assumptions in deep reinforcement learning.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1907.09470",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-optimal-adversary",
+      "title": "Robust Reinforcement Learning on State Observations with Learned Optimal Adversary",
+      "url": "https://arxiv.org/abs/2101.08452",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore learned adversaries for corrupted state observations.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2101.08452",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-strongest-enemy",
+      "title": "Who Is the Strongest Enemy? Towards Optimal and Efficient Evasion Attacks in Deep RL",
+      "url": "https://arxiv.org/abs/2106.05087",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study policy-space optimization for efficient evasion attacks.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2106.05087",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-state-robust",
+      "title": "Robust Deep Reinforcement Learning against Adversarial Perturbations on State Observations",
+      "url": "https://arxiv.org/abs/2003.08938",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand robust policies under adversarial state perturbations.",
+      "category_ids": [
+        6,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2003.08938",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-induction",
+      "title": "Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks",
+      "url": "https://arxiv.org/abs/1701.04143",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study transfer-based manipulation of learned policies.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1701.04143",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-tactics",
+      "title": "Tactics of Adversarial Attack on Deep Reinforcement Learning Agents",
+      "url": "https://arxiv.org/abs/1703.06748",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare strategically timed attacks with attacks targeting a chosen future state.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1703.06748",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-reward-blackbox",
+      "title": "Reward Poisoning in Reinforcement Learning: Attacks Against Unknown Learners in Unknown Environments",
+      "url": "https://arxiv.org/abs/2102.08492",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study reward poisoning when the learner and environment are unknown.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2102.08492",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-reward-defense",
+      "title": "Defense Against Reward Poisoning Attacks in Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2102.05776",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore defenses against adversarial changes to reward signals.",
+      "category_ids": [
+        6,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2102.05776",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-adaptive-reward",
+      "title": "Adaptive Reward-Poisoning Attacks against Reinforcement Learning",
+      "url": "https://proceedings.mlr.press/v119/zhang20u.html",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study feasibility thresholds and adaptive reward poisoning.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://proceedings.mlr.press/v119/zhang20u.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-inception",
+      "title": "Adversarial Inception Backdoor Attacks against Reinforcement Learning",
+      "url": "https://proceedings.mlr.press/v267/rathbun25a.html",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study backdoor attacks under constraints on reward manipulation.",
+      "category_ids": [
+        3,
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://proceedings.mlr.press/v267/rathbun25a.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-components",
+      "title": "Beyond Training-time Poisoning: Component-level and Post-training Backdoors in Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2507.04883",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore component-level and post-training backdoors in reinforcement learning.",
+      "category_ids": [
+        3,
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2507.04883",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-untrusted-simulators",
+      "title": "Beware Untrusted Simulators -- Reward-Free Backdoor Attacks in Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2602.05089",
+      "type": "Paper",
+      "year": 2026,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study simulator-based backdoors without direct reward manipulation.",
+      "category_ids": [
+        3,
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2602.05089",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-survey",
+      "title": "Security and Privacy Issues in Deep Reinforcement Learning: Threats and Countermeasures",
+      "url": "https://doi.org/10.1145/3640312",
+      "type": "Survey",
+      "year": 2024,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Review security and privacy threats across the deep reinforcement learning lifecycle.",
+      "category_ids": [
+        1,
+        6
+      ],
+      "access_note": "Publisher record; full-text access was not checked",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "publisher_search_metadata",
+        "evidence_url": "https://dl.acm.org/doi/10.1145/3640312",
+        "direct_retrieval_succeeded": false,
+        "http_status": null,
+        "retrieval_note": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "id": "rl-security-view",
+      "title": "Adversarial attack and defense in reinforcement learning-from AI security view",
+      "url": "https://link.springer.com/article/10.1186/s42400-019-0027-x",
+      "type": "Survey",
+      "year": 2019,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Survey adversarial attack and defense concepts specific to reinforcement learning.",
+      "category_ids": [
+        1,
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://link.springer.com/article/10.1186/s42400-019-0027-x",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-subplay",
+      "title": "SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems",
+      "url": "https://arxiv.org/abs/2402.03741",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study adversarial policies under partial observability in multi-agent systems.",
+      "category_ids": [
+        6,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.03741",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-troj",
+      "title": "TrojDRL: Evaluation of Backdoor Attacks on Deep Reinforcement Learning",
+      "url": "https://susmitjha.github.io/papers/AAAI20.pdf",
+      "type": "Paper",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Examine trigger-based backdoor behavior in learned control policies.",
+      "category_ids": [
+        3,
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://susmitjha.github.io/papers/AAAI20.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rl-neural-watchdog",
+      "title": "Mitigating Deep Reinforcement Learning Backdoors in the Neural Activation Space",
+      "url": "https://arxiv.org/abs/2407.15168",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study stealthy policy backdoors and their detection.",
+      "category_ids": [
+        6
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2407.15168",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-survey",
+      "title": "Backdoor Attacks and Defenses in Federated Learning: Survey, Challenges and Future Research Directions",
+      "url": "https://arxiv.org/abs/2303.02213",
+      "type": "Survey",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Review federated backdoor threat models, defenses, and remaining challenges.",
+      "category_ids": [
+        1,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2303.02213",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-gradient-sok",
+      "title": "SoK: Gradient Inversion Attacks in Federated Learning",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-carletti.pdf",
+      "type": "SoK paper",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Systematize gradient inversion assumptions and evaluation practices.",
+      "category_ids": [
+        4,
+        7,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.usenix.org/system/files/usenixsecurity25-carletti.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-malicious",
+      "title": "Analyzing Federated Learning through an Adversarial Lens",
+      "url": "https://arxiv.org/abs/1811.12470",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study targeted model poisoning by malicious federated participants.",
+      "category_ids": [
+        3,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1811.12470",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-little",
+      "title": "A Little Is Enough: Circumventing Defenses For Distributed Learning",
+      "url": "https://arxiv.org/abs/1902.06156",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine distributed learning attacks designed to evade robust aggregation.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1902.06156",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-fang",
+      "title": "Local Model Poisoning Attacks to Byzantine-Robust Federated Learning",
+      "url": "https://arxiv.org/abs/1911.11815",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study local model poisoning against Byzantine-robust aggregation.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1911.11815",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-foolsgold",
+      "title": "Mitigating Sybils in Federated Learning Poisoning",
+      "url": "https://arxiv.org/abs/1808.04866",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand defenses against colluding Sybil participants.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1808.04866",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-trust",
+      "title": "FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping",
+      "url": "https://arxiv.org/abs/2012.13995",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine trust bootstrapping for Byzantine-robust federated aggregation.",
+      "category_ids": [
+        7,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2012.13995",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-dba",
+      "title": "DBA: Distributed Backdoor Attacks against Federated Learning",
+      "url": "https://research.ibm.com/publications/dba-distributed-backdoor-attacks-against-federated-learning",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study distributed backdoor triggers across malicious federated clients.",
+      "category_ids": [
+        3,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "primary_page_web_retrieval",
+        "evidence_url": "https://research.ibm.com/publications/dba-distributed-backdoor-attacks-against-federated-learning",
+        "direct_retrieval_succeeded": false,
+        "http_status": null,
+        "retrieval_note": "The read operation timed out"
+      }
+    },
+    {
+      "id": "fl-robbing",
+      "title": "Robbing the Fed: Directly Obtaining Private Data in Federated Learning with Modified Models",
+      "url": "https://arxiv.org/abs/2110.13057",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore training-data leakage induced by malicious model design.",
+      "category_ids": [
+        4,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2110.13057",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "fl-dishonest",
+      "title": "Eluding Secure Aggregation in Federated Learning via Model Inconsistency",
+      "url": "https://arxiv.org/abs/2111.07380",
+      "type": "Paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study privacy attacks enabled by inconsistent models sent to clients.",
+      "category_ids": [
+        4,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2111.07380",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-survey",
+      "title": "Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies",
+      "url": "https://arxiv.org/abs/2003.00653",
+      "type": "Survey",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Review graph attack and defense assumptions alongside empirical comparisons.",
+      "category_ids": [
+        1,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2003.00653",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-nettack",
+      "title": "Adversarial Attacks on Neural Networks for Graph Data",
+      "url": "https://arxiv.org/abs/1805.07984",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study targeted changes to graph structure and node attributes.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1805.07984",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-metattack",
+      "title": "Adversarial Attacks on Graph Neural Networks via Meta Learning",
+      "url": "https://arxiv.org/abs/1902.08412",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand poisoning graph neural networks through meta-learning.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1902.08412",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-structure",
+      "title": "Adversarial Attack on Graph Structured Data",
+      "url": "https://arxiv.org/abs/1806.02371",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study adversarial manipulation of graph-structured inputs.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1806.02371",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-embedding",
+      "title": "Adversarial Attacks on Node Embeddings via Graph Poisoning",
+      "url": "https://arxiv.org/abs/1809.01093",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine poisoning attacks on learned node embeddings.",
+      "category_ids": [
+        7,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1809.01093",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-backdoor",
+      "title": "Graph Backdoor",
+      "url": "https://arxiv.org/abs/2006.11890",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study backdoor triggers in graph learning.",
+      "category_ids": [
+        3,
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2006.11890",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-backdoor2",
+      "title": "Backdoor Attacks to Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2006.11165",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine trigger-based attacks against graph neural networks.",
+      "category_ids": [
+        7
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2006.11165",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-prognn",
+      "title": "Graph Structure Learning for Robust Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2005.10203",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study graph structure learning as a robustness defense.",
+      "category_ids": [
+        7,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2005.10203",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-guard",
+      "title": "GNNGuard: Defending Graph Neural Networks against Adversarial Attacks",
+      "url": "https://arxiv.org/abs/2006.08149",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine defenses that account for suspicious graph connections.",
+      "category_ids": [
+        7,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2006.08149",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-cert",
+      "title": "Certifiable Robustness to Graph Perturbations",
+      "url": "https://arxiv.org/abs/1910.14356",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand certificates against discrete graph perturbations.",
+      "category_ids": [
+        7,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1910.14356",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-kg-poison",
+      "title": "Data Poisoning Attack against Knowledge Graph Embedding",
+      "url": "https://arxiv.org/abs/1904.12052",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study poisoning of knowledge graph embeddings used in retrieval and reasoning.",
+      "category_ids": [
+        7,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1904.12052",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "graph-kg-deceive",
+      "title": "Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation",
+      "url": "https://arxiv.org/abs/2010.12872",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore targeted perturbations of knowledge graph augmented models.",
+      "category_ids": [
+        7,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2010.12872",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-inaudible",
+      "title": "Inaudible Voice Commands",
+      "url": "https://arxiv.org/abs/1708.07238",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study inaudible command injection and microphone input assumptions.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1708.07238",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-commandersong",
+      "title": "CommanderSong: A Systematic Approach for Practical Adversarial Voice Recognition",
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yuan-xuejing",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Examine commands concealed in audio content and physical playback conditions.",
+      "category_ids": [
+        11,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yuan-xuejing",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-genetic",
+      "title": "Adversarial Black-Box Attacks on Automatic Speech Recognition Systems using Multi-Objective Evolutionary Optimization",
+      "url": "https://arxiv.org/abs/1811.01312",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study black-box speech attacks using multi-objective genetic search.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1811.01312",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-psychoacoustic",
+      "title": "Adversarial Attacks Against Automatic Speech Recognition Systems via Psychoacoustic Hiding",
+      "url": "https://arxiv.org/abs/1808.05665",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand attacks constrained by psychoacoustic masking.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1808.05665",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-physical",
+      "title": "Robust Audio Adversarial Example for a Physical Attack",
+      "url": "https://arxiv.org/abs/1810.11793",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study audio perturbations designed to survive physical playback.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1810.11793",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-temporal",
+      "title": "Characterizing Audio Adversarial Examples Using Temporal Dependency",
+      "url": "https://arxiv.org/abs/1809.10875",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine temporal dependencies as evidence for audio attack detection.",
+      "category_ids": [
+        11,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1809.10875",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-hidden",
+      "title": "Practical Hidden Voice Attacks against Speech and Speaker Recognition Systems",
+      "url": "https://arxiv.org/abs/1904.05734",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore hidden-command risks in speech and speaker recognition.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1904.05734",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-kenansville",
+      "title": "Hear \"No Evil\", See \"Kenansville\": Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems",
+      "url": "https://arxiv.org/abs/1910.05262",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study efficient transferable attacks on voice identification and transcription.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1910.05262",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-siren",
+      "title": "SirenAttack: Generating Adversarial Audio for End-to-End Acoustic Systems",
+      "url": "https://arxiv.org/abs/1901.07846",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine adversarial audio generation for end-to-end acoustic systems.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1901.07846",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-weighted",
+      "title": "Weighted-Sampling Audio Adversarial Example Attack",
+      "url": "https://arxiv.org/abs/1901.10300",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore weighted sampling for audio perturbation generation.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1901.10300",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-universal",
+      "title": "Universal Adversarial Perturbations for Speech Recognition Systems",
+      "url": "https://arxiv.org/abs/1905.03828",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study perturbations shared across speech recognition inputs.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1905.03828",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-imperceptible",
+      "title": "Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition",
+      "url": "https://arxiv.org/abs/1903.10346",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare perceptual constraints, targeted transcription, and physical robustness.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1903.10346",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-imperio",
+      "title": "Imperio: Robust Over-the-Air Adversarial Examples for Automatic Speech Recognition Systems",
+      "url": "https://arxiv.org/abs/1908.01551",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study over-the-air adversarial examples for speech recognition.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1908.01551",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-villan",
+      "title": "VillanDiffusion: A Unified Backdoor Attack Framework for Diffusion Models",
+      "url": "https://arxiv.org/abs/2306.06874",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study a unified formulation of backdoors across diffusion model settings.",
+      "category_ids": [
+        3,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2306.06874",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-trojdiff",
+      "title": "TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets",
+      "url": "https://arxiv.org/abs/2303.05762",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine diffusion backdoors with different attacker-selected output targets.",
+      "category_ids": [
+        3,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2303.05762",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-hu",
+      "title": "Membership Inference of Diffusion Models",
+      "url": "https://arxiv.org/abs/2301.09956",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare loss-based and likelihood-based membership inference against diffusion models.",
+      "category_ids": [
+        4,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2301.09956",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-matsumoto",
+      "title": "Membership Inference Attacks against Diffusion Models",
+      "url": "https://arxiv.org/abs/2302.03262",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine privacy leakage from diffusion training membership.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2302.03262",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-duan",
+      "title": "Are Diffusion Models Vulnerable to Membership Inference Attacks?",
+      "url": "https://arxiv.org/abs/2302.01316",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study membership inference signals in diffusion denoising behavior.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2302.01316",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-quantile",
+      "title": "Membership Inference Attacks on Diffusion Models via Quantile Regression",
+      "url": "https://proceedings.mlr.press/v235/tang24g.html",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Explore quantile-regression calibration for diffusion membership inference.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://proceedings.mlr.press/v235/tang24g.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-blackbox",
+      "title": "Towards Black-Box Membership Inference Attack for Diffusion Models",
+      "url": "https://proceedings.mlr.press/v267/li25k.html",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study membership inference with black-box access to diffusion models.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://proceedings.mlr.press/v267/li25k.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-realistic",
+      "title": "Towards More Realistic Membership Inference Attacks on Large Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/html/Dubinski_Towards_More_Realistic_Membership_Inference_Attacks_on_Large_Diffusion_Models_WACV_2024_paper.html",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Examine realistic evaluation assumptions for diffusion membership inference.",
+      "category_ids": [
+        12,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://openaccess.thecvf.com/content/WACV2024/html/Dubinski_Towards_More_Realistic_Membership_Inference_Attacks_on_Large_Diffusion_Models_WACV_2024_paper.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-mia-conditional",
+      "title": "Membership Inference on Text-to-Image Diffusion Models via Conditional Likelihood Discrepancy",
+      "url": "https://arxiv.org/abs/2405.14800",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study conditional likelihood discrepancies as membership evidence.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2405.14800",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-survey",
+      "title": "Attacks and Defenses for Generative Diffusion Models: A Comprehensive Survey",
+      "url": "https://arxiv.org/abs/2408.03400",
+      "type": "Survey",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Survey attacks and defenses for generative diffusion systems.",
+      "category_ids": [
+        1,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2408.03400",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-erasediff",
+      "title": "Erasing Undesirable Influence in Diffusion Models",
+      "url": "https://arxiv.org/abs/2401.05779",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study removal of unwanted data influence from diffusion models.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2401.05779",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-advunlearn",
+      "title": "Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models",
+      "url": "https://arxiv.org/abs/2405.15234",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine adversarial training for robust concept removal.",
+      "category_ids": [
+        12,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2405.15234",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-data-unlearn",
+      "title": "Data Unlearning in Diffusion Models",
+      "url": "https://arxiv.org/abs/2503.01034",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study data unlearning objectives in diffusion models.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2503.01034",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-esd",
+      "title": "Erasing Concepts from Diffusion Models",
+      "url": "https://arxiv.org/abs/2303.07345",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand concept erasure through diffusion model editing.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2303.07345",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-safe-latent",
+      "title": "Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models",
+      "url": "https://arxiv.org/abs/2211.05105",
+      "type": "Paper",
+      "year": 2022,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study safety guidance for latent diffusion generation.",
+      "category_ids": [
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2211.05105",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-multimodal-poison",
+      "title": "Text-to-Image Diffusion Models can be Easily Backdoored through Multimodal Data Poisoning",
+      "url": "https://arxiv.org/abs/2305.04175",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine backdoors introduced through image-text training pairs.",
+      "category_ids": [
+        3,
+        11,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2305.04175",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "gen-backdoordm",
+      "title": "BackdoorDM: A Comprehensive Benchmark for Backdoor Learning on Diffusion Model",
+      "url": "https://papers.nips.cc/paper_files/paper/2025/hash/ba9b181cd30b4f1819583be24fdfeb17-Abstract-Datasets_and_Benchmarks_Track.html",
+      "type": "Benchmark paper",
+      "year": 2026,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Compare diffusion backdoors and defenses under a shared benchmark.",
+      "category_ids": [
+        12,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://papers.nips.cc/paper_files/paper/2025/hash/ba9b181cd30b4f1819583be24fdfeb17-Abstract-Datasets_and_Benchmarks_Track.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-privacy-goodbad",
+      "title": "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)",
+      "url": "https://arxiv.org/abs/2402.16893",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study the privacy implications of attaching retrieved knowledge to language models.",
+      "category_ids": [
+        4,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.16893",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-thief",
+      "title": "Feedback-Guided Extraction of Knowledge Base from Retrieval-Augmented LLM Applications",
+      "url": "https://arxiv.org/abs/2411.14110",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study feedback-guided extraction of knowledge from retrieval-augmented applications.",
+      "category_ids": [
+        9,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2411.14110",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-silent-leaks",
+      "title": "Silent Leaks: Implicit Knowledge Extraction Attack on RAG Systems through Benign Queries",
+      "url": "https://arxiv.org/abs/2505.15420",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study knowledge extraction through apparently benign queries.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2505.15420",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-knowledge-asymmetry",
+      "title": "Fine-Grained Privacy Extraction from Retrieval-Augmented Generation Systems via Knowledge Asymmetry Exploitation",
+      "url": "https://arxiv.org/abs/2507.23229",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore privacy extraction using differences between base models and RAG systems.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2507.23229",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-graph-privacy",
+      "title": "Exposing Privacy Risks in Graph Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2508.17222",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study extraction risks introduced by graph-based retrieval.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2508.17222",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-recommender-poison",
+      "title": "Poison-RAG: Adversarial Data Poisoning Attacks on Retrieval-Augmented Generation in Recommender Systems",
+      "url": "https://arxiv.org/abs/2501.11759",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine poisoning of retrieval-augmented recommendation pipelines.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2501.11759",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-privacy-decoding",
+      "title": "Privacy-Aware Decoding: Mitigating Privacy Leakage of Large Language Models in Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2508.03098",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study decoding-time defenses against leakage of retrieved sensitive information.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2508.03098",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-dp",
+      "title": "RAG with Differential Privacy",
+      "url": "https://arxiv.org/abs/2412.19291",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore differential privacy in retrieval-augmented generation.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2412.19291",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-embedding-reproduction",
+      "title": "Rethinking the Privacy of Text Embeddings: A Reproducibility Study of \"Text Embeddings Reveal (Almost) As Much As Text\"",
+      "url": "https://arxiv.org/abs/2507.07700",
+      "type": "Reproducibility paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine reproducibility and assumptions in text embedding inversion.",
+      "category_ids": [
+        9,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2507.07700",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-asb",
+      "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+      "url": "https://arxiv.org/abs/2410.02644",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare agent attack surfaces and defenses in a common evaluation framework.",
+      "category_ids": [
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2410.02644",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-harm",
+      "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "url": "https://arxiv.org/abs/2410.09024",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Distinguish malicious task completion from ordinary agent capabilities.",
+      "category_ids": [
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2410.09024",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-badrag",
+      "title": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
+      "url": "https://arxiv.org/abs/2406.00083",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study retrieval-triggered denial and manipulation risks in RAG systems.",
+      "category_ids": [
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2406.00083",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-evalpoison",
+      "title": "Towards More Robust Retrieval-Augmented Generation: Evaluating RAG Under Adversarial Poisoning Attacks",
+      "url": "https://arxiv.org/abs/2412.16708",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare retrieval and generation robustness under knowledge poisoning.",
+      "category_ids": [
+        9,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2412.16708",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-certified",
+      "title": "Certifiably Robust RAG against Retrieval Corruption",
+      "url": "https://arxiv.org/abs/2405.15556",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study certified robustness under bounded retrieval corruption.",
+      "category_ids": [
+        9,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2405.15556",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "rag-corpus-poison",
+      "title": "Poisoning Retrieval Corpora by Injecting Adversarial Passages",
+      "url": "https://arxiv.org/abs/2310.19156",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine adversarial passages injected into retrieval corpora.",
+      "category_ids": [
+        3,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2310.19156",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-poison",
+      "title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+      "url": "https://arxiv.org/abs/2407.12784",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study backdoors introduced through agent memory or knowledge bases.",
+      "category_ids": [
+        3,
+        9,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2407.12784",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-minja",
+      "title": "Memory Injection Attacks on LLM Agents via Query-Only Interaction",
+      "url": "https://arxiv.org/abs/2503.03704",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine memory injection through interactions with an agent.",
+      "category_ids": [
+        9,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2503.03704",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bipia",
+      "title": "Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models",
+      "url": "https://arxiv.org/abs/2312.14197",
+      "type": "Benchmark paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study indirect injection and defenses over externally supplied content.",
+      "category_ids": [
+        8,
+        9,
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2312.14197",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-safetybench",
+      "title": "Agent-SafetyBench: Evaluating the Safety of LLM Agents",
+      "url": "https://arxiv.org/abs/2412.14470",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare safety failure modes across interactive agent environments.",
+      "category_ids": [
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2412.14470",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-toolemu",
+      "title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+      "url": "https://arxiv.org/abs/2309.15817",
+      "type": "Benchmark paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study the opportunities and limits of language-model-emulated risk evaluations.",
+      "category_ids": [
+        10,
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2309.15817",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-camel",
+      "title": "Defeating Prompt Injections by Design",
+      "url": "https://arxiv.org/abs/2503.18813",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study architectural separation of data and control flow against prompt injection.",
+      "category_ids": [
+        10,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2503.18813",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-taskshield",
+      "title": "The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents",
+      "url": "https://arxiv.org/abs/2412.16682",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine task alignment checks for actions derived from untrusted content.",
+      "category_ids": [
+        10,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2412.16682",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-vigil",
+      "title": "AgentVigil: Generic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents",
+      "url": "https://arxiv.org/abs/2505.05849",
+      "type": "Paper",
+      "year": 2025,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study black-box red teaming of indirect injection in agents.",
+      "category_ids": [
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2505.05849",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-imprompter",
+      "title": "Imprompter: Tricking LLM Agents into Improper Tool Use",
+      "url": "https://arxiv.org/abs/2410.14923",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine adversarial prompts that induce improper tool use.",
+      "category_ids": [
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2410.14923",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "agent-stweb",
+      "title": "ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents",
+      "url": "https://arxiv.org/abs/2410.06703",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Evaluate safety and trustworthiness of enterprise web agents.",
+      "category_ids": [
+        10,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2410.06703",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-pair",
+      "title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+      "url": "https://arxiv.org/abs/2310.08419",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study iterative black-box jailbreak refinement through model feedback.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2310.08419",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-tap",
+      "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically",
+      "url": "https://arxiv.org/abs/2312.02119",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine tree search and pruning in automated jailbreak generation.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2312.02119",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-autodan",
+      "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+      "url": "https://arxiv.org/abs/2310.04451",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study automatically generated jailbreaks designed to remain interpretable.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2310.04451",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-deepinception",
+      "title": "DeepInception: Hypnotize Large Language Model to Be Jailbreaker",
+      "url": "https://arxiv.org/abs/2311.03191",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine nested fictional contexts as a jailbreaking mechanism.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2311.03191",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-artprompt",
+      "title": "ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs",
+      "url": "https://arxiv.org/abs/2402.11753",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study attacks exploiting the gap between visual text patterns and safety interpretation.",
+      "category_ids": [
+        8,
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.11753",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-crescendo",
+      "title": "Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack",
+      "url": "https://arxiv.org/abs/2404.01833",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand gradual multi-turn escalation in jailbreak conversations.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2404.01833",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-hierarchy",
+      "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "url": "https://arxiv.org/abs/2404.13208",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study instruction priority training for handling untrusted prompts.",
+      "category_ids": [
+        8,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2404.13208",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-spotlighting",
+      "title": "Defending Against Indirect Prompt Injection Attacks With Spotlighting",
+      "url": "https://arxiv.org/abs/2403.14720",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine input transformations that mark externally supplied content as untrusted.",
+      "category_ids": [
+        8,
+        9,
+        10
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2403.14720",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-struq",
+      "title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+      "url": "https://arxiv.org/abs/2402.06363",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study structured separation of instructions and data against injection.",
+      "category_ids": [
+        8,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.06363",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-secalign",
+      "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+      "url": "https://arxiv.org/abs/2410.05451",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore preference optimization for resistance to prompt injection.",
+      "category_ids": [
+        8,
+        13
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2410.05451",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-finetune",
+      "title": "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
+      "url": "https://arxiv.org/abs/2310.03693",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study how downstream fine-tuning can weaken safety behavior.",
+      "category_ids": [
+        3,
+        8,
+        12
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2310.03693",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-universal-triggers",
+      "title": "Universal Adversarial Triggers for Attacking and Analyzing NLP",
+      "url": "https://arxiv.org/abs/1908.07125",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Understand input-agnostic adversarial triggers for NLP models.",
+      "category_ids": [
+        8,
+        9
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1908.07125",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-hotflip",
+      "title": "HotFlip: White-Box Adversarial Examples for Text Classification",
+      "url": "https://arxiv.org/abs/1712.06751",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study gradient-guided discrete changes to text inputs.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1712.06751",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-textfooler",
+      "title": "Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment",
+      "url": "https://arxiv.org/abs/1907.11932",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine black-box text substitutions that preserve meaning while changing predictions.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1907.11932",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "llm-bertattack",
+      "title": "BERT-ATTACK: Adversarial Attack Against BERT Using BERT",
+      "url": "https://arxiv.org/abs/2004.09984",
+      "type": "Paper",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study language-model-guided adversarial word substitutions.",
+      "category_ids": [
+        8
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2004.09984",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cv-detection",
+      "title": "Adversarial Examples for Semantic Segmentation and Object Detection",
+      "url": "https://arxiv.org/abs/1703.08603",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study adversarial perturbations against detection and segmentation tasks.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1703.08603",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cv-tshirt",
+      "title": "Adversarial T-shirt! Evading Person Detectors in A Physical World",
+      "url": "https://arxiv.org/abs/1910.11099",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine wearable perturbations under deformation and physical viewing conditions.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1910.11099",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cv-dpatch",
+      "title": "DPatch: An Adversarial Patch Attack on Object Detectors",
+      "url": "https://arxiv.org/abs/1806.02299",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study patch attacks against object detectors.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1806.02299",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cv-surveillance",
+      "title": "Fooling automated surveillance cameras: adversarial patches to attack person detection",
+      "url": "https://arxiv.org/abs/1904.08653",
+      "type": "Paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine printed patches that interfere with person detection.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1904.08653",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cv-onepixel",
+      "title": "One pixel attack for fooling deep neural networks",
+      "url": "https://arxiv.org/abs/1710.08864",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study sparse perturbations constrained to very few pixels.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1710.08864",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "cv-spatial",
+      "title": "Spatially Transformed Adversarial Examples",
+      "url": "https://arxiv.org/abs/1801.02612",
+      "type": "Paper",
+      "year": 2018,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore adversarial spatial transformations rather than additive noise.",
+      "category_ids": [
+        5
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1801.02612",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-trustllm",
+      "title": "TrustLLM: Trustworthiness in Large Language Models",
+      "url": "https://arxiv.org/abs/2401.05561",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Review multiple dimensions of language-model trustworthiness.",
+      "category_ids": [
+        1,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2401.05561",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-decodingtrust",
+      "title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
+      "url": "https://arxiv.org/abs/2306.11698",
+      "type": "Benchmark paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study trustworthiness evaluation dimensions and their measurement assumptions.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2306.11698",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-strongreject",
+      "title": "A StrongREJECT for Empty Jailbreaks",
+      "url": "https://arxiv.org/abs/2402.10260",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine whether jailbreak scoring reflects genuinely useful harmful responses.",
+      "category_ids": [
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.10260",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-sorry",
+      "title": "SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal",
+      "url": "https://arxiv.org/abs/2406.14598",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study systematic evaluation of language-model safety refusals.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2406.14598",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-xstest",
+      "title": "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models",
+      "url": "https://arxiv.org/abs/2308.01263",
+      "type": "Benchmark paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Measure exaggerated refusal of legitimate requests.",
+      "category_ids": [
+        14,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2308.01263",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-donotanswer",
+      "title": "Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs",
+      "url": "https://arxiv.org/abs/2308.13387",
+      "type": "Dataset paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study an annotated dataset for evaluating harmful response behavior.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2308.13387",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-wildguard",
+      "title": "WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs",
+      "url": "https://arxiv.org/abs/2406.18495",
+      "type": "Dataset paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine datasets and evaluation of harmful requests, responses, and refusals.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2406.18495",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-wildjailbreak",
+      "title": "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models",
+      "url": "https://arxiv.org/abs/2406.18510",
+      "type": "Dataset paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study diverse adversarial safety training and evaluation examples.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2406.18510",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-salad",
+      "title": "SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models",
+      "url": "https://arxiv.org/abs/2402.05044",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Explore hierarchical safety evaluation across models, attacks, and defenses.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.05044",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-advglue",
+      "title": "Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models",
+      "url": "https://arxiv.org/abs/2111.02840",
+      "type": "Benchmark paper",
+      "year": 2021,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare adversarial robustness across natural-language understanding tasks.",
+      "category_ids": [
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2111.02840",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-imageneta",
+      "title": "Natural Adversarial Examples",
+      "url": "https://arxiv.org/abs/1907.07174",
+      "type": "Dataset paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study naturally occurring examples that are difficult for image classifiers.",
+      "category_ids": [
+        5,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1907.07174",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-imagenetc",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "url": "https://arxiv.org/abs/1903.12261",
+      "type": "Benchmark paper",
+      "year": 2019,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Distinguish common corruption robustness from adversarial robustness.",
+      "category_ids": [
+        5,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1903.12261",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "bench-backdoor",
+      "title": "BackdoorBench: A Comprehensive Benchmark of Backdoor Learning",
+      "url": "https://arxiv.org/abs/2206.12654",
+      "type": "Benchmark paper",
+      "year": 2022,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Compare backdoor attacks and defenses with shared evaluation procedures.",
+      "category_ids": [
+        3,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2206.12654",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "multimodal-visual-jailbreak",
+      "title": "Visual Adversarial Examples Jailbreak Aligned Large Language Models",
+      "url": "https://arxiv.org/abs/2306.13213",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study visual perturbations that undermine language-model safety behavior.",
+      "category_ids": [
+        5,
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2306.13213",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "multimodal-agent-smith",
+      "title": "Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast",
+      "url": "https://arxiv.org/abs/2402.08567",
+      "type": "Paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine propagation of adversarial content through multimodal agent interactions.",
+      "category_ids": [
+        10,
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2402.08567",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "multimodal-figstep",
+      "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+      "url": "https://arxiv.org/abs/2311.05608",
+      "type": "Paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study typographic visual prompts and cross-modal safety gaps.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2311.05608",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "multimodal-safetybench",
+      "title": "MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2311.17600",
+      "type": "Benchmark paper",
+      "year": 2023,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Evaluate multimodal safety across image-text scenarios.",
+      "category_ids": [
+        11,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2311.17600",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "multimodal-jailbreakv",
+      "title": "JailBreakV: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against Jailbreak Attacks",
+      "url": "https://arxiv.org/abs/2404.03027",
+      "type": "Benchmark paper",
+      "year": 2024,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Study transfer of jailbreaks across text and multimodal settings.",
+      "category_ids": [
+        11,
+        14
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2404.03027",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-dolphin",
+      "title": "DolphinAtack: Inaudible Voice Commands",
+      "url": "https://arxiv.org/abs/1708.09537",
+      "type": "Paper",
+      "year": 2017,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Examine inaudible commands and nonlinear microphone behavior.",
+      "category_ids": [
+        11,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/1708.09537",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "audio-hiddencommands",
+      "title": "Hidden Voice Commands",
+      "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study audio commands intelligible to machines but difficult for people to recognize.",
+      "category_ids": [
+        11
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "model-stealing",
+      "title": "Stealing Machine Learning Models via Prediction APIs",
+      "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/tramer",
+      "type": "Paper",
+      "year": 2016,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Understand functionality extraction from prediction APIs.",
+      "category_ids": [
+        4
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/tramer",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "privacy-survey",
+      "title": "A Survey of Privacy Attacks in Machine Learning",
+      "url": "https://arxiv.org/abs/2007.07646",
+      "type": "Survey",
+      "year": 2020,
+      "date_basis": "arXiv first-submission metadata",
+      "reading_focus": "Survey privacy attacks, attacker knowledge, and affected model families.",
+      "category_ids": [
+        1,
+        4
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://arxiv.org/abs/2007.07646",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "aml-tutorial",
+      "title": "Adversarial Robustness: Theory and Practice",
+      "url": "https://adversarial-ml-tutorial.org/",
+      "type": "Tutorial",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Build foundations in adversarial optimization, training, and robustness guarantees.",
+      "category_ids": [
+        1
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://adversarial-ml-tutorial.org/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "aml-reading",
+      "title": "Adversarial Machine Learning Reading List",
+      "url": "https://nicholas.carlini.com/writing/2018/adversarial-machine-learning-reading-list.html",
+      "type": "Reading list",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Follow an expert reading sequence for adversarial examples and evaluation.",
+      "category_ids": [
+        1
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://nicholas.carlini.com/writing/2018/adversarial-machine-learning-reading-list.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "ml-dos-donts",
+      "title": "Dos and Don'ts of Machine Learning in Computer Security",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+      "type": "Methodology paper",
+      "year": 2022,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Recognize data leakage, unrealistic assumptions, and other experimental pitfalls.",
+      "category_ids": [
+        1,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "nist-aml",
+      "title": "NIST AI 100-2 E2025: Adversarial Machine Learning - A Taxonomy and Terminology of Attacks and Mitigations",
+      "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+      "type": "Technical report",
+      "year": 2025,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Use consistent language for attacker goals, capabilities, knowledge, and lifecycle stages.",
+      "category_ids": [
+        1,
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "nist-rmf",
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "Framework",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Understand organizational processes for identifying, measuring, and managing AI risk.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "nist-genai",
+      "title": "NIST AI 600-1: Generative Artificial Intelligence Profile",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "type": "Technical report",
+      "year": 2024,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Map generative AI risks to risk-management actions.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "nist-ssdf-ai",
+      "title": "NIST SP 800-218A: Secure Software Development Practices for Generative AI and Dual-Use Foundation Models",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/a/final",
+      "type": "Technical guidance",
+      "year": 2024,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study secure development practices specific to AI and foundation models.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://csrc.nist.gov/pubs/sp/800/218/a/final",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "iso42001",
+      "title": "ISO/IEC 42001:2023 - Artificial Intelligence Management System",
+      "url": "https://www.iso.org/standard/42001",
+      "type": "International standard",
+      "year": 2023,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Understand requirements for an organizational AI management system.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Public catalog; full standard may require purchase or institutional access",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "primary_page_web_retrieval",
+        "evidence_url": "https://www.iso.org/standard/42001",
+        "direct_retrieval_succeeded": false,
+        "http_status": null,
+        "retrieval_note": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "id": "iso23894",
+      "title": "ISO/IEC 23894:2023 - Guidance on Risk Management",
+      "url": "https://www.iso.org/standard/77304.html",
+      "type": "International standard",
+      "year": 2023,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study AI-specific risk management guidance.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Public catalog; full standard may require purchase or institutional access",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "primary_page_web_retrieval",
+        "evidence_url": "https://www.iso.org/standard/77304.html",
+        "direct_retrieval_succeeded": false,
+        "http_status": null,
+        "retrieval_note": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "id": "iso24029",
+      "title": "ISO/IEC 24029-2:2023 - Robustness of Neural Networks: Methodology for the Use of Formal Methods",
+      "url": "https://www.iso.org/standard/79804.html",
+      "type": "International standard",
+      "year": 2023,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study formal methods for assessing neural network robustness.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Public catalog; full standard may require purchase or institutional access",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "primary_page_web_retrieval",
+        "evidence_url": "https://www.iso.org/standard/79804.html",
+        "direct_retrieval_succeeded": false,
+        "http_status": null,
+        "retrieval_note": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "id": "owasp-exchange",
+      "title": "OWASP AI Exchange",
+      "url": "https://owaspai.org/",
+      "type": "Community knowledge base",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore AI threat categories, security controls, and shared terminology.",
+      "category_ids": [
+        1,
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://owaspai.org/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "owasp-llm",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/",
+      "type": "Community guidance",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Review the 2025 risk categories for LLM applications.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "owasp-agent",
+      "title": "OWASP Top 10 for Agentic Applications 2026",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "type": "Community guidance",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Review the 2026 risk categories for agentic applications.",
+      "category_ids": [
+        10,
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "ncsc-development",
+      "title": "Guidelines for Secure AI System Development",
+      "url": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development",
+      "type": "Government guidance",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study secure design, development, deployment, and operation of AI systems.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "enisa-ml",
+      "title": "ENISA: Securing Machine Learning Algorithms",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms",
+      "type": "Technical report",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Connect machine learning attack surfaces to practical security controls.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "enisa-multilayer",
+      "title": "ENISA: Multilayer Framework for Good Cybersecurity Practices for AI",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai",
+      "type": "Technical report",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Understand foundational, AI-specific, and sector-specific security practices.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "enisa-standards",
+      "title": "ENISA: Cybersecurity of AI and Standardisation",
+      "url": "https://www.enisa.europa.eu/publications/cybersecurity-of-ai-and-standardisation",
+      "type": "Technical report",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study the report's historical mapping of AI cybersecurity standards and gaps.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.enisa.europa.eu/publications/cybersecurity-of-ai-and-standardisation",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "uk-code",
+      "title": "UK Code of Practice for the Cyber Security of AI",
+      "url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+      "type": "Government guidance",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Review security principles and responsibilities across the AI lifecycle.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "mcp-security",
+      "title": "Model Context Protocol: Security Best Practices",
+      "url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+      "type": "Protocol guidance",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study authorization, token handling, and trust boundaries in MCP implementations.",
+      "category_ids": [
+        10,
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "mitre-atlas",
+      "title": "MITRE ATLAS",
+      "url": "https://atlas.mitre.org/",
+      "type": "Threat knowledge base",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore documented AI attack techniques, mitigations, and case studies.",
+      "category_ids": [
+        15,
+        18
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://atlas.mitre.org/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi001",
+      "title": "ETSI GR SAI 001 V1.1.1: AI Threat Ontology",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf",
+      "type": "Group report",
+      "year": 2022,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study the ETSI ontology for threats involving artificial intelligence.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi002",
+      "title": "ETSI GR SAI 002 V1.1.1: Data Supply Chain Security",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/002/01.01.01_60/gr_SAI002v010101p.pdf",
+      "type": "Group report",
+      "year": 2021,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Examine threats and controls in the AI data supply chain.",
+      "category_ids": [
+        3,
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/002/01.01.01_60/gr_SAI002v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi004",
+      "title": "ETSI GR SAI 004 V1.1.1: Problem Statement",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/004/01.01.01_60/gr_SAI004v010101p.pdf",
+      "type": "Group report",
+      "year": 2020,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Understand the scope and problem statement for securing AI.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/004/01.01.01_60/gr_SAI004v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi005",
+      "title": "ETSI GR SAI 005 V1.1.1: Mitigation Strategy Report",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/005/01.01.01_60/gr_SAI005v010101p.pdf",
+      "type": "Group report",
+      "year": 2021,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Review mitigation strategies for AI-related security threats.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/005/01.01.01_60/gr_SAI005v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi006",
+      "title": "ETSI GR SAI 006 V1.1.1: The Role of Hardware in Security of AI",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/006/01.01.01_60/gr_SAI006v010101p.pdf",
+      "type": "Group report",
+      "year": 2022,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Explore hardware's role in protecting AI systems and computation.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/006/01.01.01_60/gr_SAI006v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi007",
+      "title": "ETSI GR SAI 007 V1.1.1: Explicability and Transparency of AI Processing",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/007/01.01.01_60/gr_SAI007v010101p.pdf",
+      "type": "Group report",
+      "year": 2023,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Examine explicability and transparency considerations in AI processing.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/007/01.01.01_60/gr_SAI007v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi009",
+      "title": "ETSI GR SAI 009 V1.1.1: Artificial Intelligence Computing Platform Security Framework",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/009/01.01.01_60/gr_SAI009v010101p.pdf",
+      "type": "Group report",
+      "year": 2023,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Study security architecture for AI computing platforms.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/009/01.01.01_60/gr_SAI009v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "etsi011",
+      "title": "ETSI GR SAI 011 V1.1.1: Automated Manipulation of Multimedia Identity Representations",
+      "url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/011/01.01.01_60/gr_SAI011v010101p.pdf",
+      "type": "Group report",
+      "year": 2023,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Examine security issues involving manipulated multimedia identity representations.",
+      "category_ids": [
+        15
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_pdf_retrieval",
+        "evidence_url": "https://www.etsi.org/deliver/etsi_gr/SAI/001_099/011/01.01.01_60/gr_SAI011v010101p.pdf",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "ctf-tensortrust",
+      "title": "Tensor Trust: Interpretable Prompt Injection Attacks from an Online Game",
+      "url": "https://tensortrust.ai/paper/",
+      "type": "Competition dataset",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study human-authored prompt injection attacks and defenses collected through a game.",
+      "category_ids": [
+        16
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://tensortrust.ai/paper/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "ctf-gandalf",
+      "title": "Gandalf the Red: Adaptive Security for LLMs",
+      "url": "https://proceedings.mlr.press/v267/pfister25a.html",
+      "type": "Competition paper",
+      "year": 2025,
+      "date_basis": "source metadata or stated edition",
+      "reading_focus": "Examine adaptive adversaries and usability costs in game-based LLM security evaluation.",
+      "category_ids": [
+        16
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://proceedings.mlr.press/v267/pfister25a.html",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "ctf-satml-site",
+      "title": "SaTML 2024 Large Language Models Capture-the-Flag",
+      "url": "https://ctf.spylab.ai/",
+      "type": "Competition archive",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore the archived 2024 LLM capture-the-flag competition rules and setting.",
+      "category_ids": [
+        16
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://ctf.spylab.ai/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "lab-finbot",
+      "title": "OWASP FinBot",
+      "url": "https://genai.owasp.org/resource/finbot-agentic-ai-capture-the-flag-ctf-application/",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore intentionally vulnerable financial-agent workflows for learning agentic security.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://genai.owasp.org/resource/finbot-agentic-ai-capture-the-flag-ctf-application/",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "lab-dvla",
+      "title": "Damn Vulnerable LLM Agent",
+      "url": "https://github.com/ReversecLabs/damn-vulnerable-llm-agent",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study prompt injection and its impact on an intentionally vulnerable LLM agent.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://github.com/ReversecLabs/damn-vulnerable-llm-agent",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "lab-aigoat",
+      "title": "Orca AI Goat",
+      "url": "https://github.com/orcasecurity-research/AIGoat",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Explore intentionally vulnerable AI infrastructure and machine learning scenarios.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://github.com/orcasecurity-research/AIGoat",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    },
+    {
+      "id": "lab-dvmcp",
+      "title": "Damn Vulnerable MCP Server",
+      "url": "https://github.com/harishsg993010/damn-vulnerable-MCP-server",
+      "type": "Vulnerable application",
+      "year": null,
+      "date_basis": null,
+      "reading_focus": "Study MCP implementation vulnerabilities through educational challenges.",
+      "category_ids": [
+        17
+      ],
+      "access_note": "Open primary source",
+      "verification": {
+        "checked_on": "2026-09-11",
+        "method": "direct_page_retrieval",
+        "evidence_url": "https://github.com/harishsg993010/damn-vulnerable-MCP-server",
+        "direct_retrieval_succeeded": true,
+        "http_status": 200,
+        "retrieval_note": null
+      }
+    }
+  ]
+}

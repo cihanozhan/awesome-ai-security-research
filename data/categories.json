@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Foundations, Taxonomies, and Education",
+    "scope": "Threat models, attacker capabilities, lifecycle stages, foundational readings, and research tutorials.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/01-foundations-taxonomies-and-education.md",
+    "source_count": 26
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning and Deep Learning Security",
+    "scope": "Classical and neural model evasion, transferability, query access, and security evaluation.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/02-machine-learning-and-deep-learning-security.md",
+    "source_count": 25
+  },
+  {
+    "id": 3,
+    "title": "Data Poisoning, Backdoors, and Model Supply Chain",
+    "scope": "Training data corruption, hidden triggers, compromised training components, and model provenance.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/03-data-poisoning-backdoors-and-model-supply-chain.md",
+    "source_count": 26
+  },
+  {
+    "id": 4,
+    "title": "Model Privacy and Model Extraction",
+    "scope": "Membership inference, memorization, reconstruction, gradient leakage, and functionality theft.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/04-model-privacy-and-model-extraction.md",
+    "source_count": 25
+  },
+  {
+    "id": 5,
+    "title": "Computer Vision and Physical Attacks",
+    "scope": "Classification, detection, segmentation, patches, physical transformations, and real-world sensing.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/05-computer-vision-and-physical-attacks.md",
+    "source_count": 28
+  },
+  {
+    "id": 6,
+    "title": "Reinforcement Learning Security",
+    "scope": "Observation attacks, malicious policies, reward poisoning, simulator backdoors, and robust control.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/06-reinforcement-learning-security.md",
+    "source_count": 25
+  },
+  {
+    "id": 7,
+    "title": "Federated Learning and Graph Learning Security",
+    "scope": "Distributed training threats, malicious aggregation participants, graph structure attacks, and privacy leakage.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/07-federated-learning-and-graph-learning-security.md",
+    "source_count": 28
+  },
+  {
+    "id": 8,
+    "title": "LLM Security",
+    "scope": "Prompt injection, jailbreaks, fine-tuning risks, memorization, and adversarial NLP foundations.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/08-llm-security.md",
+    "source_count": 26
+  },
+  {
+    "id": 9,
+    "title": "RAG, Embedding, and Retrieval Security",
+    "scope": "Corpus poisoning, retrieval corruption, embedding inversion, knowledge extraction, and retrieval privacy.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/09-rag-embedding-and-retrieval-security.md",
+    "source_count": 27
+  },
+  {
+    "id": 10,
+    "title": "Agentic AI, Multi-Agent, and MCP Security",
+    "scope": "Agent actions, memory, tool descriptions, trust boundaries, malicious interactions, and protocol security.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/10-agentic-ai-multi-agent-and-mcp-security.md",
+    "source_count": 27
+  },
+  {
+    "id": 11,
+    "title": "Audio, Speech, and Multimodal Security",
+    "scope": "Speech recognition attacks, inaudible commands, image-text attacks, and cross-modal instruction injection.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/11-audio-speech-and-multimodal-security.md",
+    "source_count": 25
+  },
+  {
+    "id": 12,
+    "title": "Generative Models Security",
+    "scope": "Diffusion and language-model memorization, backdoors, membership inference, and defensive unlearning.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/12-generative-models-security.md",
+    "source_count": 26
+  },
+  {
+    "id": 13,
+    "title": "Defenses, Robustness, and Formal Verification",
+    "scope": "Adversarial training, privacy protection, certified robustness, backdoor mitigation, and injection defenses.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/13-defenses-robustness-and-formal-verification.md",
+    "source_count": 27
+  },
+  {
+    "id": 14,
+    "title": "Benchmarks, Datasets, and Evaluation",
+    "scope": "Threat-specific measurement, reproducibility, attack success, legitimate task utility, and evaluation datasets.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/14-benchmarks-datasets-and-evaluation.md",
+    "source_count": 30
+  },
+  {
+    "id": 15,
+    "title": "Standards, Frameworks, and Secure Development",
+    "scope": "International standards, institutional reports, risk frameworks, community guidance, and secure development practices.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/15-standards-frameworks-and-secure-development.md",
+    "source_count": 25
+  },
+  {
+    "id": 16,
+    "title": "CTFs and Competition Archives",
+    "scope": "Competition papers, datasets, rules, and archived learning environments.",
+    "kind": "practice",
+    "minimum_sources": 0,
+    "file": "categories/16-ctfs-and-competition-archives.md",
+    "source_count": 4
+  },
+  {
+    "id": 17,
+    "title": "Vulnerable Applications and Training Labs",
+    "scope": "Intentionally vulnerable applications for studying AI security concepts through controlled exercises.",
+    "kind": "practice",
+    "minimum_sources": 0,
+    "file": "categories/17-vulnerable-applications-and-training-labs.md",
+    "source_count": 4
+  },
+  {
+    "id": 18,
+    "title": "Case Studies and Research Methodology",
+    "scope": "Published vulnerability studies, failed defense lessons, measurement validity, and reproducibility.",
+    "kind": "knowledge",
+    "minimum_sources": 25,
+    "file": "categories/18-case-studies-and-research-methodology.md",
+    "source_count": 26
+  }
+]
