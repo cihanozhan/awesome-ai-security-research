@@ -1013,9 +1013,7 @@ Intentionally vulnerable applications and structured lab collections for studyin
 
 **14 sources.** Each project or collection is counted once, regardless of its number of challenges.
 
-Selection favors explicit learning objectives, available application code or hosted exercises, and documented setup. New entries include a learning focus, the reason for inclusion, and an environment note. These are documentation-based selections; deployments and challenge outcomes were not tested.
-
-### Existing collection
+Selection favors explicit learning objectives, available application code or hosted exercises, and documented setup. Entries describe their learning focus; additional educational value and environment notes are included where available. These are documentation-based selections; deployments and challenge outcomes were not tested.
 
 1. **[OWASP FinBot](https://genai.owasp.org/resource/finbot-agentic-ai-capture-the-flag-ctf-application/)** — Vulnerable application. Explore intentionally vulnerable financial-agent workflows for learning agentic security. Source ID: `lab-finbot`.
 
@@ -1024,8 +1022,6 @@ Selection favors explicit learning objectives, available application code or hos
 3. **[Orca AI Goat](https://github.com/orcasecurity-research/AIGoat)** — Vulnerable application. Explore intentionally vulnerable AI infrastructure and machine learning scenarios. Source ID: `lab-aigoat`.
 
 4. **[Damn Vulnerable MCP Server](https://github.com/harishsg993010/damn-vulnerable-MCP-server)** — Vulnerable application. Study MCP implementation vulnerabilities through educational challenges. Source ID: `lab-dvmcp`.
-
-### Added application projects
 
 5. **[SECFORCE LLMGoat](https://github.com/SECFORCE/LLMGoat)** — Vulnerable application. Work through OWASP LLM risk categories using separate challenges for prompt injection, sensitive data exposure, supply-chain assumptions, and excessive agency. Source ID: `lab-llmgoat`.
 
@@ -1059,35 +1055,33 @@ Selection favors explicit learning objectives, available application code or hos
 
 10. **[AIGoat (AI Security Consortium)](https://github.com/AISecurityConsortium/AIGoat)** — Vulnerable application. Explore a vulnerable shopping assistant with a poisonable knowledge base, excessive agency, and progressively enabled defenses. Source ID: `lab-consortium-aigoat`.
 
-   **Educational value:** Includes guided attack labs, challenge evaluators, and an instructor workshop guide.
+    **Educational value:** Includes guided attack labs, challenge evaluators, and an instructor workshop guide.
 
-   **Environment:** Uses a local Ollama-backed application. Training content has separate licensing terms from the application code.
+    **Environment:** Uses a local Ollama-backed application. Training content has separate licensing terms from the application code.
 
 11. **[Damn Vulnerable AI Platform (DVAP)](https://github.com/sonuoffsec/DVAP)** — Vulnerable application. Study vulnerable memory, retrieval, tool-output, agent identity, and domain-specific application workflows through documented lab scenarios. Source ID: `lab-dvap`.
 
-   **Educational value:** Includes individual lab applications, challenge metadata, flags, and learning guidance.
+    **Educational value:** Includes individual lab applications, challenge metadata, flags, and learning guidance.
 
-   **Environment:** Uses Docker and Ollama. Its MCP-themed lab includes simplified HTTP endpoints; do not assume protocol-conformance coverage.
+    **Environment:** Uses Docker and Ollama. Its MCP-themed lab includes simplified HTTP endpoints; do not assume protocol-conformance coverage.
 
 12. **[Damn Vulnerable AI Application (DVAIA)](https://github.com/airtasystems/DVAIA-Damn-Vulnerable-AI-Application)** — Vulnerable application. Explore vulnerable document ingestion, RAG context handling, web content ingestion, and tool-using agents in a local learning application. Source ID: `lab-dvaia`.
 
-   **Educational value:** Provides application source and distinct interaction panels that expose how untrusted content reaches the model.
+    **Educational value:** Provides application source and distinct interaction panels that expose how untrusted content reaches the model.
 
-   **Environment:** Supports local and cloud model backends. Included here for its vulnerable application surfaces; auxiliary payload-generation features are not a separate archive entry.
-
-### Additional sample and hosted lab collections
+    **Environment:** Supports local and cloud model backends. Included here for its vulnerable application surfaces; auxiliary payload-generation features are not a separate archive entry.
 
 13. **[OWASP ASI Insecure Agent Samples](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/tree/main/initiatives/agent_security_initiative/code_samples)** — Training lab collection. Read deliberately insecure agent examples to connect framework configuration and application code to agentic security failures. Source ID: `lab-owasp-insecure-agents`.
 
-   **Educational value:** The official OWASP collection separates examples by topic and includes explanatory material alongside code.
+    **Educational value:** The official OWASP collection separates examples by topic and includes explanatory material alongside code.
 
-   **Environment:** A collection of samples rather than one deployable application; dependencies and model backends vary by example.
+    **Environment:** A collection of samples rather than one deployable application; dependencies and model backends vary by example.
 
 14. **[PortSwigger Web Security Academy: Web LLM Attacks](https://portswigger.net/web-security/llm-attacks)** — Hosted training labs. Practice LLM API misuse, indirect prompt injection, and unsafe output handling through guided web-application exercises. Source ID: `lab-portswigger-llm`.
 
-   **Educational value:** Combines structured explanations with linked lab exercises and solution guidance.
+    **Educational value:** Combines structured explanations with linked lab exercises and solution guidance.
 
-   **Environment:** Hosted Academy exercises; application source and local deployment are not provided by this entry.
+    **Environment:** Hosted Academy exercises; application source and local deployment are not provided by this entry.
 
 ### Choosing a starting point
 
